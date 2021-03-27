@@ -1,2 +1,2 @@
 # csufoss.github.io
-OSS github page build on TuffyHacks 2021
+OSS github page build on TuffyHacks 2021.
