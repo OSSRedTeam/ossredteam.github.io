@@ -18,16 +18,16 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand ml-auto" href="index.html">
                 <img src="images/oss-logo.jpg" alt="" width="30" height="30">
             </a>
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse">
-          <i class="fas fa-bars"></i>
-        </button>
-            <div class="collapse navbar-collapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About Us</a>
@@ -56,64 +56,73 @@
 
     </nav>
     <!-- Navbar -->
+
+    <!-- Banner -->
+    <div class="container-fluid px-0 mt-5">
+        <div class="row d-flex justify-content-center">
+            <img class="img-fluid" src="images/OSSBackGroundImage_Resize.png" style="max-width: 1950px;">
+        </div>
+    </div>
+    <!-- Banner -->
 </header>
 
 <body>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <div class="row">
-        <div class="container">
-             <img class="img-fluid" src="images/OSSBackGroundImage_Resize.png">
-        </div>
-    </div>
-    <section id="Information" class="pb-1 bg-light">
 
-        <h2 class="pt-5 mt-5 text-center">What we have done so far</h2>
+    <!-- Content -->
+    <div class="container-fluid pt-3 px-0" style="max-width: 1935px;">
+        <section id="Information" class="pb-5 bg-light">
 
-        <div class="container">
-            <div class="row">
-                <div id="Hackathon" class="col-lg-5 mx-auto">
-                    <h3 class="mt-5">Offensive Security Bootcamp at CSUF</h3>
-                    <p class="lead h6 text-muted">Since 2018 OSS hosts a yearly Offensive Security Bootcamp during winter break. Bringing together students of all backgrounds to learn and develop interest in cybersecurity. The boot-camp features a crash course on the fundamentals
-                        of penetration testing. Alongside, a CTF that allows students to apply the skills they picked up. During the final two days a fictitious internal network is provisioned for the students so they may engage in a practice penetration
-                        test. The winter workshop has consistently had over a 100 RSVP’s. Purpose being to instill innovation-driven, maker culture and bring students together to learn, and collaborate with others.</p>
+            <h2 class="pt-5 mt-5 text-center">What we have done so far</h2>
+            <div class="container">
+                <div class="row">
+                    <div id="Hackathon" class="col-lg-5 mx-auto">
+                        <h3 class="mt-5">Offensive Security Bootcamp at CSUF</h3>
+                        <p class="lead h6 text-muted">Since 2018 OSS hosts a yearly Offensive Security Bootcamp during winter break. Bringing together students of all backgrounds to learn and develop interest in cybersecurity. The boot-camp features a crash course on the fundamentals
+                            of penetration testing. Alongside, a CTF that allows students to apply the skills they picked up. During the final two days a fictitious internal network is provisioned for the students so they may engage in a practice penetration
+                            test. The winter workshop has consistently had over a 100 RSVP’s. Purpose being to instill innovation-driven, maker culture and bring students together to learn, and collaborate with others.</p>
+                    </div>
+                    <div id="Competitions" class="col-lg-5 mx-auto">
+                        <h3 class="mt-5">Competitions</h3>
+                        <p class="lead h6 text-muted">OSS fosters an environment that promotes learning and collaboration among students through competitions like the ITC (Information Technology Competition) and CPTC (Collegiate Penetration Testing Competition) taking second place
+                            in 2018 and qualifying for the National CPTC in 2020. We also competed in numerous CTF (Capture the Flags) such as NCL (National Cyber League) and the Hacker of the Hill CTF.</p>
+                    </div>
+                    <div class="w-100"></div>
+                    <div id="Workshops" class="col-lg-5 mx-auto">
+                        <h3 class="mt-5">Host Workshops</h3>
+                        <p class="lead h6 text-muted">Workshops that we have hosted include Intro to Reconnaissance, Intro to Scanning, Building your own Keylogger, Intro to Burp Suite, Transform a Raspberry Pi to a PiApple, Building a Packet Sniffer, Fundamentals of Linux, Machine
+                            learning, and much more. The purpose of our workshops is to have students and people of the community to learn by teaching, learning from others, and expose new concepts not likely taught in a traditional setting.</p>
+                    </div>
+                    <div id="Speakers" class="col-lg-5 mx-auto">
+                        <h3 class="mt-5">Invite Guest Speakers</h3>
+                        <p class="lead h6 text-muted">We invite guest speakers from all over the industry to talk to the students of Cal. State Fullerton to share their knowledge and engage in conversation. Guest speakers that we have invited and had present Mikhail Gofman, Chris
+                            Webb, Dovell Bonnett, and William J. Purpura. We encourage students to get to know industry professionals, network, learn about the industry from first-hand experiences, and gain exposure to new technologies.</p>
+                    </div>
                 </div>
-                <div id="Competitions" class="col-lg-5 mx-auto">
-                    <h3 class="mt-5">Competitions</h3>
-                    <p class="lead h6 text-muted">OSS fosters an environment that promotes learning and collaboration among students through competitions like the ITC (Information Technology Competition) and CPTC (Collegiate Penetration Testing Competition) taking second place in
-                        2018 and qualifying for the National CPTC in 2020. We also competed in numerous CTF (Capture the Flags) such as NCL (National Cyber League) and the Hacker of the Hill CTF.</p>
-                </div>
-                <div class="w-100"></div>
-                <div id="Workshops" class="col-lg-5 mx-auto">
-                    <h3 class="mt-5">Host Workshops</h3>
-                    <p class="lead h6 text-muted">Workshops that we have hosted include Intro to Reconnaissance, Intro to Scanning, Building your own Keylogger, Intro to Burp Suite, Transform a Raspberry Pi to a PiApple, Building a Packet Sniffer, Fundamentals of Linux, Machine learning,
-                        and much more. The purpose of our workshops is to have students and people of the community to learn by teaching, learning from others, and expose new concepts not likely taught in a traditional setting.</p>
-                </div>
-                <div id="Speakers" class="col-lg-5 mx-auto">
-                    <h3 class="mt-5">Invite Guest Speakers</h3>
-                    <p class="lead h6 text-muted">We invite guest speakers from all over the industry to talk to the students of Cal. State Fullerton to share their knowledge and engage in conversation. Guest speakers that we have invited and had present Mikhail Gofman, Chris Webb,
-                        Dovell Bonnett, and William J. Purpura. We encourage students to get to know industry professionals, network, learn about the industry from first-hand experiences, and gain exposure to new technologies.</p>
-                </div>
+        </section>
 
+        <section id="Calendar">
+            <div class="col-lg-7 mx-auto text-center">
+                <h1 class="mt-5 text-center">Events Calendar</h1>
+                <iframe src="https://calendar.google.com/calendar/embed?src=oss%40osscsuf.org&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
             </div>
-    </section>
+        </section>
 
-    <section id="Calendar">
-        <div class="col-lg-7 mx-auto text-center">
-            <h1 class="mt-5 text-center">Events Calendar</h1>
-            <iframe src="https://calendar.google.com/calendar/embed?src=oss%40osscsuf.org&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
-    </section>
+        <!-- Content -->
 
 </body>
 
-<footer class="bg-light text-center text-lg-start">
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Offensive Security Society 2021. All Right Reserved.
+<!-- Footer -->
+<footer class="footer px-0" style="padding-top: 150px;">
+    <div class="container-fluid bg-secondary text-center">
+        <div class="text-light p-3">
+            © 2020 Offensive Security Society 2021. All Right Reserved.
+        </div>
     </div>
-    <!-- Copyright -->
 </footer>
+<!-- Footer -->
 
 </html>

@@ -17,16 +17,16 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand ml-auto" href="index.html">
                 <img src="images/oss-logo.jpg" alt="" width="30" height="30">
             </a>
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse">
-          <i class="fas fa-bars"></i>
-        </button>
-            <div class="collapse navbar-collapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About Us</a>
@@ -55,16 +55,21 @@
 
     </nav>
     <!-- Navbar -->
+
+    <!-- Banner -->
+    <div class="container-fluid px-0 mt-5">
+        <div class="row d-flex justify-content-center">
+            <img class="img-fluid" src="images/OSSBackGroundImage_Resize.png" style="max-width: 1950px;">
+        </div>
+    </div>
+    <!-- Banner -->
 </header>
 
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <div class="row">
-        <div class="container">
-            <img class="img-fluid" src="images/OSSBackGroundImage_Resize.png">
-        </div>
-    </div>
-    <div class="container row mx-auto">
+
+
+    <div class="container row mx-auto mt-5 pt-3">
         <h1 class="text-center">Blog</h1>
         <p>OSS has taken part in variouse comptetition/events. We also are very active in online CTF challanges and HTB challenges During these events many people think all we do is just hack but that is not the case. In most of these events the hacking
             is around 40% to 50% while the rest of it is writing reports. Here are example of previouse reports that we have done in past events/ challenges
@@ -136,12 +141,14 @@
 
 </body>
 
-<footer class="bg-light text-center text-lg-start">
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Offensive Security Society 2021. All Right Reserved.
+<!-- Footer -->
+<footer class="footer px-0" style="padding-top: 150px;">
+    <div class="container-fluid bg-secondary text-center">
+        <div class="text-light p-3">
+            © 2020 Offensive Security Society 2021. All Right Reserved.
+        </div>
     </div>
-    <!-- Copyright -->
 </footer>
+<!-- Footer -->
 
 </html>
